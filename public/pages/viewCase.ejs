@@ -1,0 +1,52 @@
+
+<!-- include header -->
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../styles/stories.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <!-- Icon -->
+    <link rel="icon" href="../images/icon.png" sizes="35x35" type="image/png">
+
+    <title>She Hacks</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <!-- CSS Linked -->
+    <link rel="stylesheet" href="../styles/navbar.css">
+
+<!-- /include header -->
+<body> 
+ 
+	<%- include('../include/navbar.ejs') %>
+  
+            <!-- form handling -->
+            <br>
+            <br>
+           
+            <div>
+                <h1 class="title">Stories of Success...</h1>
+               
+            <form action="/" method="POST">
+                <table>
+                    
+                    <tbody class="w3-container">
+                          <%- include('../include/showData.ejs') %>
+                    </tbody>
+                    
+                </table>
+            </form>
+            <h3 class="title1">Want to inspire others by sharing your own Success Story</h3>
+            <button class="button-stories"  onclick="window.location.href = '/add'">Share Your Story </button>
+            </div>
+            <!-- Bootsrtap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript Linked-->
+    
+   <!-- include header -->
+    <%- include('../include/footer.ejs') %>
+<!-- /include header --> 
+<script src="../scripts/navbar.js"></script>  
+</body>
+

@@ -1,0 +1,201 @@
+/*html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+#fname{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#lname{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+#inputEmail{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+*/
+
+
+
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Caveat:wght@700&family=Open+Sans:wght@600&display=swap');
+
+/* font-family: 'Akaya Telivigala', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+.logsign {
+  background-color: #e1eef5;
+  font-family: "Lato";
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.logimg{
+  display: inline-block;
+  float: left;
+  padding-left: 220px;
+  padding-right: 80px;
+
+}
+
+.login-content{
+  box-sizing: border-box;
+  color: #606468;
+  min-height: 100%;
+  padding-top: 100px;
+}
+
+.login-content h2{
+  padding-left: 100px;
+  margin-bottom: 35px;
+  font-size: 40px;
+  font-family: 'Akaya Telivigala', cursive;
+  color: rgb(170, 5, 156);
+}
+
+.login-content .form-field{
+  margin-top: 20px;
+}
+
+.login-content .icon,.login-content .form-input, .login-content .submit-button{
+  border-radius: 00.30rem;
+}
+
+.login-content .icon {
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width:50px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 0px;
+  border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  background-color: #e46e9b;
+  color:#f7cddd; 
+  font-size: 19px;
+}
+
+.login-content .form-input {
+  border: 0;
+  margin: 0;
+    outline: 0;
+    padding: 0;
+  height: 50px;
+  width:270px;
+  margin-left: 0px;
+  padding-left: 12px;
+  background-color:#f7cddd;
+  transition: background-color .3s;
+  border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  font-family: 'Open Sans'; 
+}
+
+.login-content .form-input:hover{
+  background-color:#f1b5cc;
+}
+
+.login-content .form-input:focus{
+  background-color:#f1b5cc;
+}
+
+.login-content .form-input:valid {
+  background-color:#f1b5cc;
+}
+
+.login-content .submit-button{
+  border: 0;
+    outline: 0;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  height: 50px;
+  width:319px;
+  font-size: 16px;
+  background-color:#ea4c88;
+  color:#eee;
+  
+}
+.login-content .submit-button:focus, .login-content .submit-button:hover{
+  background-color:#d44179;
+}
+
+.login-content .signupnow{
+  padding-left: 15px;
+  font-size: 15px;
+  padding-left: 1px;
+  color: rgb(140, 131, 221);
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+/* Mobile View */
+@media screen and (max-width: 650px) {
+  .logimg{
+    height: 20px;
+    width: 20px;
+  }
+    .login-content{
+        padding-top: 36px;
+      padding-left: 33px;
+  }
+  .login-content h2{
+      padding-left: 55px;
+      margin-bottom: 30px;
+    font-size: 28px;
+  }
+    .login-content .form-input {
+      width:245px;
+    }
+    .login-content .submit-button{
+      width:294px;
+    }
+    .login-content .signupnow{
+      font-size: 13px;  
+    }
+}
+
+.signform {
+  padding-top: 55px;
+}
+

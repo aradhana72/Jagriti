@@ -1,0 +1,27 @@
+<form action="/api/users" method="POST" id="add_user">
+  
+            <div class="form-group">
+            <label for="name" class="text-dark">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" class="area" name="name" value="" placeholder="Enter Full Name">
+              </div>
+            <div class="form-group">
+            <label for="name" class="text-dark">  Profession</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" class="area" name="Profession" value="" placeholder="Enter Your Profession">
+              </div>
+               <div class="form-group">
+            <label for="name" class="text-dark">Story</label>
+            <input type="hidden" name="id" value="">
+            <textarea type="text" class="area" name="Story" value="" placeholder="Add Your Story Here..."></textarea>
+              </div>
+        <div class="form-group">
+            <button type="submit"  class="btn text-dark update">POST</button>
+            
+        </div>
+       
+</form>
+
+<div class="form-group">
+  <button onclick="window.location.href = '/view'" class="btn text-dark update">Back to Stories Section</button>
+</div>

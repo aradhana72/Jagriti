@@ -1,0 +1,55 @@
+body{
+  background-image:url(https://www.fg-a.com/wallpapers/white-background-vines.jpg);
+  background-size: cover;
+}
+tbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vh;
+  align-self: center;
+  margin-left:40% ;
+  margin-right: 20%;
+}
+.w3-container p{
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+.title{
+  font-family: 'cursive';
+  margin-left: 20%;
+  font-size: 75px;
+  font-weight: bolder;
+  color: rgb(9, 4, 34);
+}
+.title1{
+  font-family: 'cursive';
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(9, 4, 34);
+}
+
+.w3-container h1{
+  font-size: 35px;
+}
+.w3-container h3{
+  font-size: 20px;
+}
+.w3-card-4{
+  margin: 20px;
+  border-radius: 5%;
+}
+.button-stories{
+  background-color: teal;
+  border-radius: 6%;
+  color: aliceblue;
+  height: 50px;
+  margin-left: 45%;
+  border: 0;
+  margin-bottom: 4%;
+}
+

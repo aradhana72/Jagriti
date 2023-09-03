@@ -1,0 +1,17 @@
+<% for(var i = 0; i < users.length; i++) { %>
+<tr>
+<td>
+    <div class="w3-card-4" style="width:100%;">
+        <header class="w3-container w3-teal">
+              <h1><%= users[i].name %></h1>
+              <h3><%= users[i].Profession %></h3>
+        </header>
+        <div class="w3-container">
+             <p><%= users[i].Story %></p>
+        </div>
+    </div>
+</td>
+</tr>
+</div> <!-- end clash-card barbarian-->
+</div>
+<% } %>

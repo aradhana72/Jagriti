@@ -1,0 +1,103 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald:200,400|Playfair+Display:400,400i");
+
+.navigation a {
+  text-decoration: none;
+  color: #92BFB1;
+}
+.navigation a:hover {
+  background: #92BFB1;
+  color: #333333;
+  text-decoration: none;
+}
+
+.navigation .sticky {
+  position: fixed;
+  z-index: 10;
+}
+
+.navigation .navbar--container {
+  top: 15%;
+  background: #ffffff;
+  height: 220px;
+  width: 90px;
+  box-shadow: 2px 2px 15px rgba(51, 51, 51, 0.1);
+}
+
+.navigation .navbar--icon {
+  margin-top: 24px;
+  margin-left: 49px;
+  font-size: 1em;
+}
+
+.navigation .navbar--icon:hover {
+  color: #92BFB1;
+  cursor: pointer;
+}
+
+.navigation .navbar--title {
+  margin-left: 27px;
+  margin-top: 35px;
+}
+.navigation .navbar--title h4 {
+  writing-mode: vertical-rl;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.navigation .nav--open {
+  height: 100vh;
+  width: 300px;
+  background: #ffffff;
+  transition: all 0.4s ease-out;
+  opacity: 1;
+  box-shadow: 2px 2px 15px rgba(51, 51, 51, 0.1);
+}
+
+.navigation .nav--open-icon {
+  text-align: right;
+  padding: 20px;
+}
+.navigation .nav--open-icon i {
+  font-size: 1.8em;
+  color: #92BFB1;
+}
+
+.navigation .nav--open-icon i:hover {
+
+  color: #333333;
+  cursor: pointer; 
+}
+
+/*Explore*/
+.navigation .nav--open-title {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-top: 35%;
+}
+
+.navigation .nav--open-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+.navigation .nav--open-menu a {
+  font-size: 1.8em;
+  font-weight: 100;
+  font-family: "Playfair Display", serif;
+  padding: 15px 0;
+}
+
+.navigation .close {
+  transform: translateX(-300px);
+  transition: all 0.4s ease-out;
+  opacity: 0;
+}
+
